@@ -59,7 +59,7 @@ standard object file **format—ELF**
 
 **Each object file contains a symbol table**
 
-**<u>Symbol</u>** refers to a **memory location**, the content of which is either data for a variable or code for a function.
+**<u>Symbol:</u>** refers to a **memory location**, the content of which is either data for a variable or code for a function.
 
 **<u>Symbol table</u>:** is an array-like data structure
 consisting of entries about the global symbols **(i.e., names of global variables and nonstatic functions)** defined in the compilation unit, as well as the external symbols (**with “external linkage”**) referenced in the compilation unit. When the compiler encounters a symbol declaration, it stores that **symbol** and its **attributes** in the symbol table of the object file.
