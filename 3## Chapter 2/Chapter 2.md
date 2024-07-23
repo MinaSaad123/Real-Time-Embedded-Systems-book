@@ -1,7 +1,7 @@
 # **Chapter 2 Cross-Platform Development**
 
 ## **Table of Contents**
-- **Cross-Platform Development Process** 
+- [**Cross-Platform Development Process**](https://github.com/MinaSaad123/Real-Time-Embedded-Systems-book/edit/main/3%23%23%20Chapter%202/Chapter%202.md#cross-platform-development-process)
 - **Hardware Architecture** 
 - **Software Developmen**t 
     - Software Design 
@@ -50,7 +50,7 @@ standard object file **format—ELF**
 
 ---
 
-**`native compiler</u>:`** compiler is called that if its output is **intended to directly run on the host platform** (or the same type of environment) where the compiler runs.
+**`native compiler:`** compiler is called that if its output is **intended to directly run on the host platform** (or the same type of environment) where the compiler runs.
 
  **`A cross compiler:`** is a compiler c**apable of generating executable code for a target platform** that is different from the host platform. This statement applies to a cross assembler as well, except that it processes source files written in assembly languages.
 
@@ -63,7 +63,7 @@ standard object file **format—ELF**
 > [!NOTE]
 > **<u>Symbol:</u>** refers to a **memory location**, the content of which is either data for a variable or code for a function.
 
-> **<u>Symbol table</u>:** is an array-like data structure consisting of entries about the global symbols **(i.e., names of global variables and nonstatic functions)** defined in the compilation unit, as well as the external symbols (**with “external linkage”**) referenced in the compilation unit. When the compiler encounters a symbol declaration, it stores that **symbol** and its **attributes** in the symbol table of the object file.
+> **Symbol table:** is an array-like data structure consisting of entries about the global symbols **(i.e., names of global variables and nonstatic functions)** defined in the compilation unit, as well as the external symbols (**with “external linkage”**) referenced in the compilation unit. When the compiler encounters a symbol declaration, it stores that **symbol** and its **attributes** in the symbol table of the object file.
 
 For the example code given before, we have the following:
 - **In one.c**, there are four global symbol definitions: global variables c, sa, and sb, and a function main(). It references two external symbols a and b().
