@@ -1,8 +1,8 @@
 # **Chapter 2 Cross-Platform Development**
-
 ## **Table of Contents**
-- [**Cross-Platform Development Process**](https://github.com/MinaSaad123/Real-Time-Embedded-Systems-book/edit/main/3%23%23%20Chapter%202/Chapter%202.md#cross-platform-development-process)
-- **Hardware Architecture** 
+
+- [**Cross-Platform Development Process**](#cross-platform-development-process)
+- [**Hardware Architecture**](#hardware-architecture)
 - **Software Developmen**t 
     - Software Design 
     - System Programming Language C/C++ 
@@ -11,7 +11,7 @@
          - *Storage duration* 
          - *Linkage* 
 - **Storage-class specifiers** 
-    - Test Hardware-Independent Modules 
+    - Test Hardware-Independent M  odules 
 - **Build Target Images** 
     - Cross-Development Toolchain 
          - *Cross compiler/assembler* 
@@ -26,7 +26,7 @@
 - **Integrated Testing on Target** 
 - **System Production** 
 
-## **Cross-Platform Development Process** 
+## **Cross Platform Development Process**
 **<u>we need to distinguish two terms:</u>**
 
 **<u>host platform:</u>** refers to the computing environment (i.e., the processor architecture and, if applicable, the operating system) upon which software is developed and its executable artifact is built.
