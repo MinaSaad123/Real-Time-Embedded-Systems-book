@@ -50,19 +50,20 @@ standard object file **format—ELF**
 
 ---
 
-**<u>native compiler</u>:** compiler is called that if its output is **intended to directly run on the host platform** (or the same type of environment) where the compiler runs.
+**`native compiler</u>:`** compiler is called that if its output is **intended to directly run on the host platform** (or the same type of environment) where the compiler runs.
 
- **<u>A cross compiler:</u>** is a compiler c**apable of generating executable code for a target platform** that is different from the host platform. This statement applies to a cross assembler as well, except that it processes source files written in assembly languages.
+ **`A cross compiler:`** is a compiler c**apable of generating executable code for a target platform** that is different from the host platform. This statement applies to a cross assembler as well, except that it processes source files written in assembly languages.
 
  For each compilation unit,\
  the compiler/assembler generates an object file.3 For instance, the C compiler can produce two object files—one.o and two.o—for the example code given before.
 
-**Each object file contains a symbol table**
+> [!NOTE]
+> **Each object file contains a symbol table**
 
-**<u>Symbol:</u>** refers to a **memory location**, the content of which is either data for a variable or code for a function.
+> [!NOTE]
+> **<u>Symbol:</u>** refers to a **memory location**, the content of which is either data for a variable or code for a function.
 
-**<u>Symbol table</u>:** is an array-like data structure
-consisting of entries about the global symbols **(i.e., names of global variables and nonstatic functions)** defined in the compilation unit, as well as the external symbols (**with “external linkage”**) referenced in the compilation unit. When the compiler encounters a symbol declaration, it stores that **symbol** and its **attributes** in the symbol table of the object file.
+> **<u>Symbol table</u>:** is an array-like data structure consisting of entries about the global symbols **(i.e., names of global variables and nonstatic functions)** defined in the compilation unit, as well as the external symbols (**with “external linkage”**) referenced in the compilation unit. When the compiler encounters a symbol declaration, it stores that **symbol** and its **attributes** in the symbol table of the object file.
 
 For the example code given before, we have the following:
 - **In one.c**, there are four global symbol definitions: global variables c, sa, and sb, and a function main(). It references two external symbols a and b().
