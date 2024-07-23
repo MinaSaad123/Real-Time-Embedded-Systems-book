@@ -72,7 +72,5 @@ For the example code given before, we have the following:
 **An object file’s symbol table holds information that is needed by a compiler/linker to locate and relocate a program’s symbolic definitions and references.**
 ### **Linker**
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
 
 
