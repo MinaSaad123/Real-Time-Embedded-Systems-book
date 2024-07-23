@@ -3,7 +3,7 @@
 
 - [**Cross-Platform Development Process**](#cross-platform-development-process)
 - [**Hardware Architecture**](#hardware-architecture)
-- **Software Developmen**
+- [**Software Development**](#Software-Development)
     - Software Design 
     - System Programming Language C/C++ 
          -*Declarations and definitions* 
@@ -12,7 +12,7 @@
          - *Linkage* 
 - **Storage-class specifiers** 
     - Test Hardware-Independent M  odules 
-- **Build Target Images** 
+- [**Build Target Images**](#Build-Target-Images)
     - Cross-Development Toolchain 
          - *Cross compiler/assembler* 
          - *Linker* 
