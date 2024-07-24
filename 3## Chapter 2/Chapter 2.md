@@ -104,7 +104,7 @@ In order to create a process image for an object file, the object file has to be
 -  is able to receive control from the system and provide a running environment for the object being loaded.
 
 > [!NOTE]
-> program loader: is a program interpreter that **simply loads a program into memory and transfers the execution control to it.**
+> **`program loader:`** is a program interpreter that **simply loads a program into memory and transfers the execution control to it.**
 
 This approach works for **stand-alone executable files**.
 > [!NOTE]
